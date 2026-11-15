@@ -7,7 +7,21 @@
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png">
 <link rel="apple-touch-icon" sizes="180x180" href="images/favicon-180.png">
 <link rel="shortcut icon" href="favicon.ico">
-<title>DaisyMo Collective — Creative Studio · Maple Grove, MN</title>
+<title>DaisyMo Collective | Photo Studio, Podcast Room & Event Space Rental in Maple Grove, MN</title>
+<meta name="description" content="A curated creative studio in Maple Grove, MN. Rent our open photo studio, self-portrait studio, or podcast room — perfect for photoshoots, content creation, meetings, and mixers.">
+<link rel="canonical" href="https://daisymocollective.com/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="DaisyMo Collective | Photo Studio, Podcast Room & Event Space Rental in Maple Grove, MN">
+<meta property="og:description" content="A curated creative studio in Maple Grove, MN. Rent our open photo studio, self-portrait studio, or podcast room — perfect for photoshoots, content creation, meetings, and mixers.">
+<meta property="og:image" content="https://daisymocollective.com/images/hero-top.jpeg">
+<meta property="og:url" content="https://daisymocollective.com/">
+<meta property="og:site_name" content="DaisyMo Collective">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="DaisyMo Collective | Photo Studio, Podcast Room & Event Space Rental in Maple Grove, MN">
+<meta name="twitter:description" content="A curated creative studio in Maple Grove, MN. Rent our open photo studio, self-portrait studio, or podcast room — perfect for photoshoots, content creation, meetings, and mixers.">
+<meta name="twitter:image" content="https://daisymocollective.com/images/hero-top.jpeg">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -740,7 +754,41 @@
     .location-map-placeholder { min-height: 300px; }
     .membership { padding: 4.5rem 2rem; }
   }
+  .event-strip { display: flex; align-items: center; justify-content: center; gap: 1.6rem; flex-wrap: wrap; background: var(--accent); color: var(--ink); text-decoration: none; padding: 1rem 2rem; font-family: 'DM Mono', monospace; font-size: 0.68rem; letter-spacing: 0.14em; text-transform: uppercase; }
+  .event-strip em { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; letter-spacing: 0; text-transform: none; }
+  .event-strip-tag { background: var(--ink); color: var(--cream); padding: 0.3rem 0.7rem; }
+  .event-strip-cta { border-bottom: 1px solid var(--ink); }
+  .event-strip:hover { background: #b78559; }
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "DaisyMo Collective",
+  "image": "https://daisymocollective.com/images/hero-top.jpeg",
+  "url": "https://daisymocollective.com/",
+  "telephone": "+1-763-209-8807",
+  "email": "inquiries@daisymocollective.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "10650 County Rd 81, Suite U",
+    "addressLocality": "Maple Grove",
+    "addressRegion": "MN",
+    "postalCode": "55369",
+    "addressCountry": "US"
+  },
+  "sameAs": [
+    "https://www.instagram.com/daisymo_collective/"
+  ],
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "priceRange": "$$"
+}
+</script>
 </head>
 <body>
 
@@ -777,6 +825,13 @@
     <img src="images/hero-top.jpeg" alt="DaisyMo Collective Studio" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center;">
   </div>
 </div>
+
+<!-- UPCOMING EVENT -->
+<a class="event-strip" href="events.html#workshops">
+  <span class="event-strip-tag">Upcoming</span>
+  <span class="event-strip-text"><em>The Reset</em> · Vision Board Workshop · Sat, Dec 19 · $35</span>
+  <span class="event-strip-cta">Reserve a spot →</span>
+</a>
 
 <!-- MARQUEE -->
 <div class="marquee-wrap">
@@ -993,6 +1048,7 @@
     <li><a href="booking.html?space=self">Self Studio</a></li>
     <li><a href="https://www.daisymocollective.com/dmc-membership" target="_blank">Membership</a></li>
     <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="events.html">Events</a></li>
     <li><a href="faq.html">FAQ</a></li>
   </ul>
   <div class="footer-copy">© 2026 DaisyMo Collective · Maple Grove, MN</div>
