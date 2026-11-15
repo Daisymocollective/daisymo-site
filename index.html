@@ -759,6 +759,8 @@
   .event-strip-tag { background: var(--ink); color: var(--cream); padding: 0.3rem 0.7rem; }
   .event-strip-cta { border-bottom: 1px solid var(--ink); }
   .event-strip:hover { background: #b78559; }
+  .top-bands { margin-top: 80px; }
+  .top-bands + .hero { padding-top: 0; min-height: calc(100vh - 190px); }
 </style>
 <script type="application/ld+json">
 {
@@ -801,31 +803,13 @@
     <li><a href="membership.html">Membership</a></li>
     <li><a href="gallery.html">Gallery</a></li>
     <li><a href="faq.html">FAQ</a></li>
+    <li><a href="events.html">Events</a></li>
     <li><a href="#location">Visit</a></li>
   </ul>
   <a class="nav-cta" href="booking.html">Book Now</a>
 </nav>
 
-<!-- HERO -->
-<div class="hero">
-  <div class="hero-left">
-    <p class="hero-tag fade-up delay-1">Creative Studio · Maple Grove, MN</p>
-    <h1 class="hero-headline fade-up delay-2">
-      Where <em>ideas</em><br>find their space
-    </h1>
-    <p class="hero-sub fade-up delay-3">
-      A curated studio for photographers, creators, brands, and anyone ready to make something worth remembering.
-    </p>
-    <div class="hero-actions fade-up delay-4">
-      <a class="btn-primary" href="booking.html">Book the Studio</a>
-      <a class="btn-ghost" href="#spaces">Explore Spaces →</a>
-    </div>
-  </div>
-  <div class="hero-right">
-    <img src="images/hero-top.jpeg" alt="DaisyMo Collective Studio" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center;">
-  </div>
-</div>
-
+<div class="top-bands">
 <!-- UPCOMING EVENT -->
 <a class="event-strip" href="events.html#workshops">
   <span class="event-strip-tag">Upcoming</span>
@@ -856,6 +840,27 @@
     <span>Brand Shoots</span><span class="dot">·</span>
     <span>Maple Grove MN</span><span class="dot">·</span>
     <span>24/7 Studio Access</span><span class="dot">·</span>
+  </div>
+</div>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-left">
+    <p class="hero-tag fade-up delay-1">Creative Studio · Maple Grove, MN</p>
+    <h1 class="hero-headline fade-up delay-2">
+      Where <em>ideas</em><br>find their space
+    </h1>
+    <p class="hero-sub fade-up delay-3">
+      A curated studio for photographers, creators, brands, and anyone ready to make something worth remembering.
+    </p>
+    <div class="hero-actions fade-up delay-4">
+      <a class="btn-primary" href="booking.html">Book the Studio</a>
+      <a class="btn-ghost" href="#spaces">Explore Spaces →</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <img src="images/hero-top.jpeg" alt="DaisyMo Collective Studio" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center;">
   </div>
 </div>
 
